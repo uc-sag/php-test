@@ -1,6 +1,6 @@
 <html>
 <body>
-   {$test}
-   {$test|escape}
+   {$str1|cat:' world'}
+   
 </body>
 </html>
