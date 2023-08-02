@@ -1,7 +1,13 @@
 <html>
 <body>
+{for $start = 0 to $len-1}
+    {$curr = $data[$start]}
+    {foreach from = $curr item = foo}
+      {$foo}
+    {/foreach}
+{/for}
 
-{html_checkboxes name = "id" options = $check selected = $id separator = '<br/'  }
-{html_radios values = $check2 output = $name selected = $sel separator = '<br/>'}
+
+
 </body>
 </html>
