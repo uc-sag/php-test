@@ -1,14 +1,7 @@
 <html>
 <body>
 
-<form action="result.php" method="post">
-  Enter the number <input type="number" name="no">
-  <input type="submit">
-</form>
-<?php
-   $no = $_POST['no'];
-  echo $no;
-
-?>
+{html_checkboxes name = "id" options = $check selected = $id separator = '<br/'  }
+{html_radios values = $check2 output = $name selected = $sel separator = '<br/>'}
 </body>
 </html>
